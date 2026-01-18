@@ -201,6 +201,6 @@ If you have pages that shouldn't be cached (like `/admin/*` or `/api/*`), add a 
 
 ## License
 
-This plugin is part of Ava CMS and is released under the MIT License.
+This plugin is part of Ava CMS and is released under the same GPLv3 license.
 
 Cloudflare® is a registered trademark of Cloudflare, Inc. This plugin is not affiliated with or endorsed by Cloudflare, Inc.
