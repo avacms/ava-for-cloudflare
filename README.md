@@ -204,3 +204,13 @@ If you have pages that shouldn't be cached (like `/admin/*` or `/api/*`), add a 
 This plugin is part of Ava CMS and is released under the same GPLv3 license.
 
 Cloudflare® is a registered trademark of Cloudflare, Inc. This plugin is not affiliated with or endorsed by Cloudflare, Inc.
+
+Provided as free, open-source software without warranty (GNU General Public License). It is under active development and may contain bugs or security issues. You are responsible for reviewing, testing, and securing any deployment.
+
+Copyright (c) 2025-2026 Adam Greenough
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program. If not, see https://www.gnu.org/licenses/.
