@@ -6,7 +6,6 @@ Automatically purge your Cloudflare cache when content is rebuilt, ensuring visi
 
 - **Automatic cache purge** — Clears Cloudflare cache whenever the content index is rebuilt
 - **CLI commands** — Manual purge and status check from the command line
-- **Admin integration** — Status page and manual purge button in the admin dashboard
 - **Logging** — All purge operations are logged to `storage/logs/cloudflare.log`
 
 ## Quick Start
@@ -103,7 +102,6 @@ Manually purge all cached content from Cloudflare. This is the same operation th
 When enabled, the plugin hooks into `indexer.rebuild` and purges the cache whenever:
 
 - You run `./ava rebuild`
-- You click "Rebuild Index" in the admin dashboard
 - Auto-rebuild triggers (when `content_index.mode` is `auto`)
 
 ---
@@ -145,11 +143,11 @@ By default, Cloudflare only caches static assets (images, CSS, JS). The "Cache E
 
 ### Excluding Dynamic Pages
 
-If you have pages that shouldn't be cached (like `/admin/*` or `/api/*`), add a Cache Rule with higher priority:
+If you have pages that shouldn't be cached (like `/api/*`), add a Cache Rule with higher priority:
 
 | Setting | Value |
 |---------|-------|
-| **When** | URI Path starts with `/admin` |
+| **When** | URI Path starts with `/api` |
 | **Then** | Bypass cache |
 
 ---
